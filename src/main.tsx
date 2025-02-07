@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { House, Hash, Bell, Envelope, BookmarkSimple, FileText, User, DotsThreeCircle } from 'phosphor-react'
+import { Meow } from './components/Meow'
+import { House, Hash, Bell, Envelope, BookmarkSimple, FileText, User, DotsThreeCircle, Sparkle } from 'phosphor-react'
 
 import './global.css'
 import catterLogo from './assets/logo.svg'
@@ -23,7 +24,24 @@ createRoot(document.getElementById('root')!).render(
         <button className='new-meow' type='button'>Meow</button>
       </aside>
       <div className="content">
-        meowwwwwww
+        <main className='timeline'>
+          <div className='timeline-header'>
+            Home
+            <Sparkle />
+          </div>
+          <form className='new-meow-form'>
+            <label htmlFor="meow">
+              <img src="https://github.com/matheuscs.png" alt="Fiorela" />
+              <textarea name="" id="meow" placeholder="Meow's happening?"></textarea>
+            </label>
+            <button type='submit'>Meow</button>
+          </form>
+          <div className='separator'></div>
+          <Meow />
+          <Meow></Meow>
+          <Meow></Meow>
+          <Meow></Meow>
+        </main>
       </div>
     </div>
   </StrictMode>

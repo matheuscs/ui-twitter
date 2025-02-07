@@ -15,7 +15,7 @@ A simple Twitter interface clone built with React, TypeScript, and Vite, for lea
 ### Clone the Repository
 ```bash
 git clone https://github.com/matheuscs/ui-twitter.git
-cd twitter-clone
+cd ui-twitter
 ```
 
 ### Install Dependencies
@@ -35,7 +35,7 @@ Vite will start the project at http://localhost:5173/ (default).
 
 ## Screnshoot
 
-![MeowSpace Screenshot](https://github.com/user-attachments/assets/96b78974-ceaf-4471-93bb-746ec0b6cb61)
+![MeowSpace Screenshot](https://github.com/user-attachments/assets/b88ada7a-dbcb-4029-9984-185235bab601)
 
 
 ## License
