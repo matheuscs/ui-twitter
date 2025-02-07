@@ -43,10 +43,18 @@
     font-size: 0.875rem;
     color: #89a2b8;
 }
-.meow .meow-content .meow-content-footer button:hover{
+.meow .meow-content .meow-content-footer .regular :hover{
     color: var(--twiter-blue);
 }
 .meow .meow-content .meow-content-footer button svg {
     width: 1.25rem;
     height: 1.25rem;
+}
+
+.meow .meow-content .meow-content-footer .btnhearts :hover{
+    fill: red;
+}
+
+.meow .meow-content .meow-content-footer .hearts :hover{
+    color: red;
 }

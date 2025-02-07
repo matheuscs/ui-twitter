@@ -1,6 +1,6 @@
 import { House, Hash, Bell, Envelope, BookmarkSimple, FileText, User, DotsThreeCircle } from 'phosphor-react'
 import catterLogo from '../assets/logo.svg'
-import './Sirebar.css'
+import './Sidebar.css'
 
 export function Sidebar() {
   return (

@@ -1,7 +1,14 @@
 import './Meow.css'
 import { ChatCircle, ArrowsClockwise, Heart } from 'phosphor-react'
 
-export function Meow() {
+interface MeowProps {
+  content: string,
+  comments: number,
+  remeows: number,
+  pawsup: number
+}
+
+export function Meow(props: MeowProps) {
   return (
     <a href='#' className="meow">
       <img src="https://github.com/matheuscs.png" alt="Fiorela" /> 
@@ -10,19 +17,16 @@ export function Meow() {
           <strong>Fiorela Jane</strong>
           <span>@fiorela</span>
         </div>
-        <p>
-          Just joined Meow! 🐾 #FirstMeow <br />
-          Meowwwww
-        </p>
+        <p>{props.content}</p>
         <div className="meow-content-footer">
-          <button type='button'>
-            <ChatCircle /> 1
+          <button className='regular'>
+            <ChatCircle /> {props.comments}
           </button>
-          <button>
-            <ArrowsClockwise /> 0
+          <button className='regular'>
+            <ArrowsClockwise /> {props.remeows}
           </button>
-          <button>
-            <Heart /> 3
+          <button className='btnhearts'>
+            <Heart className='hearts'/> {props.pawsup}
           </button>
         </div>
       </div>
