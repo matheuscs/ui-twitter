@@ -1,0 +1,58 @@
+# Node.js dependencies
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Vite build output
+dist/
+.vite/
+
+# Local environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Editor files (VSCode, JetBrains, etc.)
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Lint and TypeScript cache
+.eslintcache
+*.tsbuildinfo
+
+# Jest and Cypress test output
+coverage/
+jest/
+cypress/screenshots/
+cypress/videos/
+
+# Storybook build
+.storybook-out/
+
+# Temporary files
+*.tmp
+*.cache
+
+# Personal files
+docs/screenshots/

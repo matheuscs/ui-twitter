@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root {
+    --twiter-blue: #1da1f2;
+}
+body {
+    background-color: rgb(238, 238, 238);
+    color: #0f1419;
+    -webkit-font-smoothing: antialised;
+}
+body, input, textarea, button {
+    font: 400 1rem Roboto, sans-serif;
+}
+button {
+    cursor: pointer;
+}
+a {
+    color: inherit;
+}
+/** Page: Timeline **/
+.new-meow {
+    margin-top: 1.25rem;
+}
+.layout{
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+.sidebar {
+    padding: 1.5rem 1.25rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+.sidebar .logo {
+    width: 2rem;
+    height: 2rem;
+    margin: 1.25rem 0; 
+}
+.sidebar .new-meow {
+    background: var(--twiter-blue);
+    border-radius: 9999px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 900;
+    border: 0;
+}
+.sidebar .new-meow:hover {
+    filter: brightness(0.95);
+}
+.main-navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.main-navigation a {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+.main-navigation .active {
+    color: var(--twiter-blue);
+}
+.main-navigation a svg {
+    width: 2rem;
+    height: 2rem;
+}
+.content {
+    border-left: 1px solid #ebeef0;
+    border-right: 1px solid #ebeef0;
+}
