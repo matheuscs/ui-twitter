@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Timeline } from './pages/Timeline'
+import { OpenMeow } from "./pages/OpenMeow";
 
 export const router = createBrowserRouter([
   {
@@ -8,6 +9,6 @@ export const router = createBrowserRouter([
   },
   {
     path: '/meow',
-    element: <h1>Meow</h1>
+    element: <OpenMeow />
   }
 ])
