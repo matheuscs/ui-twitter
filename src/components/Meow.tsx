@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Meow.css'
 import { ChatCircle, ArrowsClockwise, Heart } from 'phosphor-react'
 
@@ -10,7 +11,7 @@ interface MeowProps {
 
 export function Meow(props: MeowProps) {
   return (
-    <a href='#' className="meow">
+    <Link to='/meow' className="meow">
       <img src="https://github.com/matheuscs.png" alt="Fiorela" /> 
       <div className='meow-content'>
         <div className='meow-content-header'>
@@ -30,6 +31,6 @@ export function Meow(props: MeowProps) {
           </button>
         </div>
       </div>
-    </a>
+    </Link>
   )
 }

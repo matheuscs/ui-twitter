@@ -5,5 +5,9 @@ export const router = createBrowserRouter([
   {
     path: '/',
     element: <Timeline />
+  },
+  {
+    path: '/meow',
+    element: <h1>Meow</h1>
   }
 ])
