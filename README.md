@@ -37,7 +37,7 @@ Vite will start the project at http://localhost:5173/ (default).
 
 ![Home](https://github.com/user-attachments/assets/a9fb6302-897a-49c3-8a1e-e4a8cefcd194)
 
-![Meow](https://github.com/user-attachments/assets/8d22be45-0a6f-43fb-aa4d-f8f9a4e132a7)
+![Meow](https://github.com/user-attachments/assets/ab7783a2-0e4a-4021-a454-bfab33b900c5)
 
 
 ## License

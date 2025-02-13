@@ -1,13 +1,14 @@
 import { House, Hash, Bell, Envelope, BookmarkSimple, FileText, User, DotsThreeCircle } from 'phosphor-react'
 import catterLogo from '../assets/logo.svg'
 import './Sidebar.css'
+import { NavLink } from 'react-router-dom'
 
 export function Sidebar() {
   return (
     <aside className="sidebar">
       <img className='logo' src={catterLogo} alt="Logo" />
       <nav className='main-navigation'>
-        <a href="" className='active'><House weight='fill' />Home</a>
+        <NavLink to="/"><House weight='fill' />Home</NavLink>
         <a href=""><Hash />Explore</a>
         <a href=""><Bell />Notifications</a>
         <a href=""><Envelope /> Messages</a>
