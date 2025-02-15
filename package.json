@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "test": "echo oi",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "localforage": "^1.10.0",
